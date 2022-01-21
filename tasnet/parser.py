@@ -100,7 +100,7 @@ def get_parser():
     parser.add_argument(
         "--checkpoints",
         type=Path,
-        default=Path("../../../../../gpu-data/ppap/tasnet_checkpoints_paper/need_these"),
+        default=Path("checkpoints"),
         help="Folder where to store checkpoints etc",
     )
     parser.add_argument(
